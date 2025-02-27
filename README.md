@@ -1,4 +1,4 @@
-# 🚀 Text Data Quality Enhancement using NLP  
+# 🚀 Text Analytics
 
 This project leverages advanced NLP techniques to improve text data quality for analytics and machine learning applications. It focuses on automated preprocessing, semantic understanding, and domain-specific adaptations.  
 
