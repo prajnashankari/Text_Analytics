@@ -46,9 +46,9 @@ http://127.0.0.1:5000/
 
 | Input Sentence | Sentiment |
 |---------------|------------|
-| "I love this product! It's amazing." | Positive 😊 |
-| "This is the worst experience ever." | Negative 😡 |
-| "The weather is nice today." | Neutral 😐 |
+| "I love this product! It's amazing." | Positive |
+| "This is the worst experience ever." | Negative |
+| "The weather is nice today." | Neutral |
 
 ---
 
@@ -58,9 +58,9 @@ http://127.0.0.1:5000/
 
 | Input Sentence | Named Entities |
 |---------------|----------------|
-| "Elon Musk is the CEO of Tesla and SpaceX." | Elon Musk (👤 PERSON), Tesla (🏢 ORG), SpaceX (🏢 ORG) |
-| "Google was founded in September 1998." | Google (🏢 ORG), September 1998 (📅 DATE) |
-| "Apple launched the iPhone 15 on Sept 12, 2023." | Apple (🏢 ORG), iPhone 15 (📱 PRODUCT), Sept 12, 2023 (📅 DATE) |
+| "Elon Musk is the CEO of Tesla and SpaceX." | Elon Musk (PERSON), Tesla (ORG), SpaceX (ORG) |
+| "Google was founded in September 1998." | Google (ORG), September 1998 (DATE) |
+| "Apple launched the iPhone 15 on Sept 12, 2023." | Apple (ORG), iPhone 15 (PRODUCT), Sept 12, 2023 (DATE) |
 
 ---
 
@@ -82,8 +82,8 @@ http://127.0.0.1:5000/
 
 | Input Sentence | Output |
 |---------------|---------|
-| "Microsoft announced Windows 11 on June 24, 2021." | **Entities:** Microsoft (🏢 ORG), Windows 11 (💻 PRODUCT), June 24, 2021 (📅 DATE) <br> **Sentiment:** Neutral 😐 <br> **Cleaned Text:** "microsoft announced windows 11 on june 24 2021" |
-| "I hate slow internet, but Google Fiber is really fast!" | **Entities:** Google Fiber (🏢 ORG) <br> **Sentiment:** Positive 😊 <br> **Cleaned Text:** "i hate slow internet but google fiber is really fast" |
+| "Microsoft announced Windows 11 on June 24, 2021." | **Entities:** Microsoft (ORG), Windows 11 (PRODUCT), June 24, 2021 (DATE) <br> **Sentiment:** Neutral <br> **Cleaned Text:** "microsoft announced windows 11 on june 24 2021" |
+| "I hate slow internet, but Google Fiber is really fast!" | **Entities:** Google Fiber (ORG) <br> **Sentiment:** Positive <br> **Cleaned Text:** "i hate slow internet but google fiber is really fast" |
 
 ---
 
